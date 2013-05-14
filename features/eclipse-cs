@@ -1,0 +1,4 @@
+#checkstyle
+ECLIPSE_REPOS="http://eclipse-cs.sf.net/update/"
+FEATURES="net.sf.eclipsecs.feature.group,net.sf.eclipsecs.migration.feature.group"
+

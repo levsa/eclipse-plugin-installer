@@ -1,0 +1,4 @@
+#checkstyle
+ECLIPSE_REPOS="http://andrei.gmxhome.de/eclipse/"
+FEATURES="net.sf.eclipsecs.feature.group,net.sf.eclipsecs.migration.feature.group"
+

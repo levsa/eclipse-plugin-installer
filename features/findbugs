@@ -1,0 +1,3 @@
+#checkstyle
+ECLIPSE_REPOS="http://findbugs.cs.umd.edu/eclipse/"
+FEATURES="edu.umd.cs.findbugs.plugin.eclipse.feature.group"

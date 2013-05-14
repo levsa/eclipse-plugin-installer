@@ -1,0 +1,3 @@
+#android
+ECLIPSE_REPOS="https://dl-ssl.google.com/android/eclipse/"
+FEATURES="com.android.ide.eclipse.adt.feature.group,com.android.ide.eclipse.ddms.feature.group,com.android.ide.eclipse.gldebugger.feature.group,com.android.ide.eclipse.hierarchyviewer.feature.group,com.android.ide.eclipse.traceview.feature.group"
