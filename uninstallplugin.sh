@@ -7,5 +7,7 @@
 . features/$1
 echo $FEATURES
 
-echo /opt/eclipse/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository "$ECLIPSE_REPOS" -destination /opt/eclipse -uninstallIU "$FEATURES"
-/opt/eclipse/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository "$ECLIPSE_REPOS" -destination /opt/eclipse -uninstallIU "$FEATURES"
+ECLIPSE_DIR=/Applications/eclipse
+
+echo ${ECLIPSE_DIR}/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository "$ECLIPSE_REPOS" -destination ${ECLIPSE_DIR} -uninstallIU "$FEATURES"
+${ECLIPSE_DIR}/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository "$ECLIPSE_REPOS" -destination ${ECLIPSE_DIR} -uninstallIU "$FEATURES"

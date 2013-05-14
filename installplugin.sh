@@ -7,5 +7,7 @@
 . features/$1
 echo $FEATURES
 
-echo /opt/eclipse/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository "$ECLIPSE_REPOS" -destination /opt/eclipse -installIU "$FEATURES"
-/opt/eclipse/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository "$ECLIPSE_REPOS" -destination /opt/eclipse -installIU "$FEATURES"
+ECLIPSE_DIR=/Applications/eclipse
+
+echo ${ECLIPSE_DIR}/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository "$ECLIPSE_REPOS" -destination ${ECLIPSE_DIR} -installIU "$FEATURES"
+${ECLIPSE_DIR}/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository "$ECLIPSE_REPOS" -destination ${ECLIPSE_DIR} -installIU "$FEATURES"

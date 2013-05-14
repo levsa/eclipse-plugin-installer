@@ -1,0 +1,3 @@
+#gradle
+ECLIPSE_REPOS="http://dist.springsource.com/release/TOOLS/gradle"
+FEATURES="org.springsource.ide.eclipse.gradle.feature.feature.group,org.springframework.ide.eclipse.uaa.feature.feature.group,org.springsource.ide.eclipse.dashboard.feature.group"

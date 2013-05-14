@@ -6,5 +6,7 @@
 #repositories=http://dist.springsource.org/release/GRECLIPSE/e4.2/
 . features/$1
 
-plugins=`/opt/eclipse/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository $ECLIPSE_REPOS -list|grep "feature.group"`
+ECLIPSE_DIR=/Applications/eclipse
+
+plugins=`${ECLIPSE_DIR}/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository $ECLIPSE_REPOS -list|grep "feature.group"`
 for x in $plugins; do echo $x|awk -F '=' '{print $1}'; done
